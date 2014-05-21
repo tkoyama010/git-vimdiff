@@ -4,11 +4,11 @@ This project is wrapper to use vimdiff in git.
 
 How To Use
 ----------
-To use this wrapper run the following command:
+To use this wrapper run the following command:  
 $ git ...
-Add following setting to .gitconfig:
+Add following setting to .gitconfig:  
 [diff]
-  external = /vimdiff2git
+  external = /path/to/vimdiff2git/vimdiff2git
 [pager]
   diff =
 
