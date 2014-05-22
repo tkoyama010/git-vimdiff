@@ -1,4 +1,4 @@
-vimdiff2git
+git-vimdiff
 ======================
 This project is wrapper to use vimdiff in git.
 
@@ -6,7 +6,7 @@ How To Use
 ----------
 Add following setting to .gitconfig:  
 [diff]  
-  external = /path/to/vimdiff2git/vimdiff2git  
+  external = /path/to/git-vimdiff/git-vimdiff  
 [pager]  
   diff =  
 
