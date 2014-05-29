@@ -1,5 +1,5 @@
 LICENCE.pdf: gpl.pdf
-	mv $< $@
+	cp $< $@
 gpl.pdf: gpl.dvi
 	dvipdf $<
 gpl.dvi: gpl.tex
