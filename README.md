@@ -16,3 +16,6 @@ This project is coded by following reference:
 http://qiita.com/takahi5/items/e9029c3bc20b30862463  
 Thank you.
 
+Licence
+-------
+<LICENCE.pdf>
