@@ -1,10 +1,8 @@
-LICENCE.pdf: gpl.pdf
-	cp $< $@
-gpl.pdf: gpl.dvi
+LICENCE.pdf: LICENCE.dvi
 	dvipdf $<
-gpl.dvi: gpl.tex
+LICENCE.dvi: LICENCE.tex
 	platex $<
 update:
-	rm gpl.tex
-	wget -O file http://www.gnu.org/licenses/gpl.tex
-	cat file | sed -e "s/<program>/vim-diff/g" -e "s/<year>/2014/g" -e "s/<name of author>/Tetsuo Koyama/g" -e "s/<textyear>/2014/g" > gpl.tex
+	-rm gpl.tex
+	wget http://www.gnu.org/licenses/gpl.tex
+	cat gpl.tex | sed -e "s/<program>/vim-diff/g" -e "s/<year>/2014/g" -e "s/<name of author>/Tetsuo Koyama/g" -e "s/<textyear>/2014/g" > LICENCE.tex
