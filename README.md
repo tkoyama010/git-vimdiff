@@ -18,4 +18,4 @@ Thank you.
 
 Licence
 -------
-<https://github.com/tkoyama010/git-vimdiff/blob/master/LICENCE.pdf>
+See LICENCE.pdf
