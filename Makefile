@@ -8,4 +8,4 @@ gpl.tex:
 	-rm -f gpl.tex
 	wget http://www.gnu.org/licenses/gpl.tex
 clean:
-	-rm *.aux *.dvi *.log *.pdf
+	-rm -f *.aux *.dvi *.log *.pdf *.tex
