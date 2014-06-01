@@ -14,3 +14,7 @@ gpl.tex:
 	wget http://www.gnu.org/licenses/gpl.tex
 clean:
 	-rm -f *.aux *.dvi *.log *.pdf *.tex
+run:
+	make
+	okular LICENCE.pdf
+
