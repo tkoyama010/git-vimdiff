@@ -6,7 +6,7 @@ How To Use
 ----------
 Add following setting to .gitconfig:  
 [diff]  
-  external = /path/to/git-vimdiff/git-vimdiff  
+  external = git-vimdiff  
 [pager]  
   diff =  
 

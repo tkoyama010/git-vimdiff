@@ -17,4 +17,6 @@ clean:
 run:
 	make
 	okular LICENCE.pdf
+install:
+	cp git-vimdiff /usr/local/bin
 
