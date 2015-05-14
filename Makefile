@@ -19,4 +19,8 @@ run:
 	okular LICENCE.pdf
 install:
 	cp git-vimdiff /usr/local/bin
+	echo "[diff]  " >> ~/.gitconfig
+	echo "  external = git-vimdiff  " >> ~/.gitconfig
+	echo "[pager]  " >> ~/.gitconfig
+	echo "  diff =  " >> ~/.gitconfig
 
